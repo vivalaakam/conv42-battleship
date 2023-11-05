@@ -1,0 +1,26 @@
+.cell {
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+}
+
+.active:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.cellUnknown {
+    background-color: #e6f598;
+}
+
+.cellMissed {
+    background-color: #fee08b;
+}
+
+.cellKilled {
+    background-color: #d53e4f;
+}
+
+.cellFilled {
+    background-color: #081d58;
+}

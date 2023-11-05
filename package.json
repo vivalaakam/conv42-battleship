@@ -1,0 +1,17 @@
+{
+  "name": "battleship-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn run:client",
+    "run:client": "vite ./client",
+    "run:server": "ts-node ./server",
+    "test": "cd client && yarn test"
+  },
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}
